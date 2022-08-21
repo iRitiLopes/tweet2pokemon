@@ -1,2 +1,4 @@
 flask
 tweepy
+transformers[sentencepiece]
+tensorflow
