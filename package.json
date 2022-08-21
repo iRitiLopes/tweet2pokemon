@@ -1,0 +1,39 @@
+{
+  "name": "pokemon2tweet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.py",
+  "scripts": {
+    "start": "pip3 install -r requirements.txt && python3 main.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipehac/pln-chatbot-pokemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipehac/pln-chatbot-pokemon/issues"
+  },
+  "homepage": "https://github.com/felipehac/pln-chatbot-pokemon#readme",
+  "dependencies": {
+    "fastify": "^4.3.0",
+    "ts-dotenv": "^0.8.3",
+    "ts-node": "^10.9.1",
+    "wikijs": "^6.3.3",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "16.16.0"
+  }
+}
