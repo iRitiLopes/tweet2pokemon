@@ -7,10 +7,7 @@ from transformers import pipeline
 MIN_POKEMON_ID = 1
 MAX_POKEMON_ID = 111
 
-bearer = getenv(
-    "bearer",
-    "AAAAAAAAAAAAAAAAAAAAAKzbgAEAAAAAYK00KnsHAEDgqL4ARmF6Rq%2B0AVA%3D5NycDrS2tOhUClJyVoOZLLmt2XGtkvOeW4ngpMLWs66Q4chQmC"
-)
+bearer = getenv("bearer")
 
 auth = tweepy.OAuth2BearerHandler(bearer)
 api = tweepy.API(auth)
