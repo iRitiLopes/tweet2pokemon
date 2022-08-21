@@ -1,4 +1,3 @@
-from unittest.mock import sentinel
 from flask import Flask, request, jsonify
 import tweepy
 from tweepy.models import Status
